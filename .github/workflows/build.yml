@@ -32,6 +32,4 @@ jobs:
 
       - uses: docker/build-push-action@v2.4.0
         with:
-          push: true
-          repository: mukulb1990/package-manager
-          tag_with_ref: true
+          tags: mukulb1990/package-manager:latest
